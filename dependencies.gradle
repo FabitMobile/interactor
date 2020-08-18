@@ -1,0 +1,18 @@
+ext {
+
+    rxJavaVersion = '2.1.10'
+
+    //FABIT
+    libraryExceptionVersion = '1.0.4'
+    libraryUtilsVersion = '1.0.0'
+
+    interactorDependencies = [
+            kotlinStdlib: "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version",
+            rxJava      : "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
+    ]
+
+    libs = [
+            exception: "com.github.FabitMobile:exception:$libraryExceptionVersion",
+            utils    : "com.github.FabitMobile:utils:$libraryUtilsVersion"
+    ]
+}
