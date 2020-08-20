@@ -3,7 +3,7 @@ ext {
     rxJavaVersion = '2.1.10'
 
     //FABIT
-    libraryExceptionVersion = '1.0.4'
+    libraryExceptionVersion = '1.0.0'
     libraryUtilsVersion = '1.0.0'
 
     interactorDependencies = [
